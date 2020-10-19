@@ -33,6 +33,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -86,6 +89,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="app.manifest" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -98,6 +102,87 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Rain3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sunny.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloudy_blr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rainy_blr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snow_blr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sunny_2_blr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thunder_blr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\extraRainy_blr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sunny 2_blr.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sunny 2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rainy_blr.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rainy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snow_blr.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snow.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\extraRainy_blr.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\extraRainy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thunder_blr.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thunder.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloudy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\01n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\02n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\03n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\04n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\09n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloudy_blr.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
